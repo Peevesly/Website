@@ -17,6 +17,7 @@ h1{
     /* margin: 200px 100px 0px; */
     font-weight: bold;
     font-size: 50px;
+    padding: 20px;
 }
 h2{
     margin: 0 auto;
@@ -38,7 +39,8 @@ img {
     width: 400px;
     padding-bottom: 20px;
     display: block;
-    transition: transform .1s;
 }
- img :hover { 
-     transform: scale(2.1); }
+#carouselExampleCaptions{
+    max-width: 80%;
+    margin: 0 auto;
+}

@@ -1,41 +1,105 @@
-<!DOCTYPE HTML>
-<HTML lang="en">
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta charset="utf-8">
     <title> Hudson Fega's Website</title>
     <link  rel="stylesheet" href="style.css" >
+    <script src="script.js"> </script>
+    <!DOCTYPE HTML>
+<HTML lang="en">
 </head>
-<body id="wrapper">
-    <main>
-    <!-- Text Content  -->
-    <div class="words">
-        <h1><em>Ode to Things</em></h1>
-        <H2 id="subject"><em>Film Cameras</H2>
-        <br>
-        <h2></h2>
-        <div class="gif"><iframe src="https://giphy.com/embed/1jv6nAcIrqxICfLKb9" width="50%" height="100%" margin: 0 auto;style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/stickers/olympusuk-olympus-100-years-100years-1jv6nAcIrqxICfLKb9"></a></p>
-        <p>Here are some photos I've taken semi-recently on a Canon AE-1.</p>
-    </div> 
-    
+  <body id="wrapper">
+        <main>
+        <!-- Text Content  -->
+        <div class="words">
+            <h1><em>Ode to Things</em></h1>
+            <H2 id="subject"><em>Film Cameras</H2>
+            <br>
+            <h2></h2>
+            <div class="gif"><iframe src="https://giphy.com/embed/1jv6nAcIrqxICfLKb9" width="50%" height="100%" margin: 0 auto;style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            <p>Here are some photos I've taken semi-recently on a Canon AE-1.</p>
+        </div> 
 
-    <!-- Photo content -->
-   <div class="container">
-        <img src="images/800.jpg">
-        <img src="images/Beach.jpg">
-        <img src="images/Edges.jpg">
-        <img src="images/Flatirons.jpg">
-        <img src="images/Hillside.jpg">
-        <img src="Images/House on the Hill.jpg">
-        <img src="Images/Post.jpg">
-        <img src="images/dune.jpg">
-        <img src="images/Evergreen.jpg">
-        <img src="images/Fence.jpg">
-        <img src="Images/cream.jpg">
-    </div>
-</main>
-</body>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/dune.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Dune.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/800.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Beach</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/Edges.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Edges.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/cream.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>My baby dog.</p>
+                </div>
+              </div>
+            <div class="carousel-item">
+                <img id="beach" src="images/Fence.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p></p>
+                </div>
+              </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        <!-- Photo content
+       <div class="container">
+           <div class="pics">
+             <img src="images/800.jpg">
+             <img src="images/Beach.jpg">
+             <img src="images/Edges.jpg">
+             <img src="images/Flatirons.jpg">
+             <img src="images/Hillside.jpg">
+             <img src="Images/House on the Hill.jpg">
+             <img src="Images/Post.jpg">
+             <img src="images/dune.jpg">
+             <img src="images/Evergreen.jpg">
+             <img src="images/Fence.jpg">
+             <img src="Images/cream.jpg">
+            </div>
+        </div> -->
+
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
 
 
 
-
-</HTML
